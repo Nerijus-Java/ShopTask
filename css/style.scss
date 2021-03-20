@@ -1,0 +1,77 @@
+@import "var";
+
+body {
+    font-weight: 400;
+    font-family: "Public Sans", sans-serif;
+    background-color: $primary-bg;
+}
+
+// *bootstrap -------------------------------------
+
+.login > .container {
+    max-width: $login-container-width;
+    align-items: center;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    border-radius: 2px;
+    background-color: $seconday-bg;
+    padding: 10px 0;
+}
+
+.form-control {
+    font-size: 11px;
+    height: 36px;
+    background-color: $primary-bg;
+}
+
+.btn-sm {
+    width: $login-inside-width;
+}
+
+.input-group-text{
+    background-color: $invisable-color;
+    border-color: $invisable-color;
+    padding: 1px 2px;
+}
+
+// *my classes
+
+.productPannle{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.152);
+    padding: 2px 6px;
+
+}
+
+.logo {
+    font-weight: 400;
+    font-family: "Six Caps", sans-serif;
+    font-size: 70px;
+    color:$logo-color;
+}
+
+.logoShop{
+    font-weight: 400;
+    font-family: "Six Caps", sans-serif;
+    font-size: 35px;
+    color:$logo-color;
+}
+
+.shop > .logo {
+    font-weight: 400;
+    font-family: "Six Caps", sans-serif;
+}
+
+.image-size {
+    height: 40px;
+    width: 136px;
+}
+
+.nobg-nobd {
+    background-color: $invisable-color;
+    border-color: $invisable-color;
+}
+
+.test {
+    background-color: $test-bg;
+    border: 1px solid red;
+}
