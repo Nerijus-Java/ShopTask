@@ -4,6 +4,16 @@ body {
   background-color: rgba(167, 163, 163, 0.089);
 }
 
+.card {
+  border-radius: 10px;
+}
+
+.navbar {
+  height: 48px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .login > .container {
   max-width: 350px;
   -webkit-box-align: center;
@@ -31,6 +41,13 @@ body {
   padding: 1px 2px;
 }
 
+.productImg {
+  margin-top: 1px;
+  height: 152px;
+  width: 204px;
+  border-radius: 10px;
+}
+
 .productPannle {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.152);
@@ -49,6 +66,7 @@ body {
   font-family: "Six Caps", sans-serif;
   font-size: 35px;
   color: #007bff;
+  margin-top: -9px;
 }
 
 .shop > .logo {

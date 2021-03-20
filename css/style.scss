@@ -7,7 +7,15 @@ body {
 }
 
 // *bootstrap -------------------------------------
+.card{
+    border-radius:10px;
+}
 
+.navbar{
+    height: 48px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 .login > .container {
     max-width: $login-container-width;
     align-items: center;
@@ -35,6 +43,15 @@ body {
 
 // *my classes
 
+.productImg{
+    margin-top: 1px;
+    height: 152px;
+    width: 204px;
+    border-radius:10px;
+}
+
+
+
 .productPannle{
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.152);
@@ -53,7 +70,9 @@ body {
     font-weight: 400;
     font-family: "Six Caps", sans-serif;
     font-size: 35px;
+   
     color:$logo-color;
+    margin-top: -9px;
 }
 
 .shop > .logo {
