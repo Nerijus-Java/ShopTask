@@ -1,17 +1,17 @@
 body {
   font-weight: 400;
   font-family: "Public Sans", sans-serif;
-  background-image: url("/img/embossed-diamond.png");
+  background-image: url("/img/funky-lines.png");
 }
 
 .navbar {
-  height: 48px;
+  height: 41px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .top-wrapper {
-  padding-top: 70px;
+  padding-top: 90px;
 }
 
 .login > .container {
@@ -36,13 +36,20 @@ body {
 }
 
 .card-body {
-  margin: 3px 1px;
+  margin: 2px 0px;
 }
 
 .input-group-text {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
   padding: 1px 2px;
+}
+
+.card {
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 0;
+  border: 1px solid rgba(114, 114, 114, 0.254);
 }
 
 .backgroundImg {
