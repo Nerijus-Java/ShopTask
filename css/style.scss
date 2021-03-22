@@ -7,15 +7,13 @@ body {
 }
 
 // *bootstrap -------------------------------------
-.card{
-    border-radius:10px;
-    margin: 3px 1px;
-}
-
-.navbar{
+.navbar {
     height: 48px;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+.top-wrapper{
+    padding-top: 70px;
 }
 .login > .container {
     max-width: $login-container-width;
@@ -36,7 +34,12 @@ body {
     width: $login-inside-width;
 }
 
-.input-group-text{
+.card-body {
+    background-color: rgba(243, 243, 243, 0.994);
+    border-radius: 10px;
+    margin: 3px 1px;
+}
+.input-group-text {
     background-color: $invisable-color;
     border-color: $invisable-color;
     padding: 1px 2px;
@@ -44,37 +47,43 @@ body {
 
 // *my classes
 
-.productImg{
+.backgroundImg {
+    background-image: url("/img/nike.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -350px;
+    background-blend-mode: soft-light;
+    background-size: 100% 100%;
+}
+
+.productImg {
     margin-top: 1px;
     height: 152px;
     width: 204px;
-    border-radius:10px;
+    border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.152);
 }
 
-
-
-.productPannle{
+.productPannle {
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.152);
     padding: 2px 6px;
     margin: 0px 0px 0px 0px;
-
 }
 
 .logo {
     font-weight: 400;
     font-family: "Six Caps", sans-serif;
     font-size: 70px;
-    color:$logo-color;
+    color: $logo-color;
 }
 
-.logoShop{
+.logoShop {
     font-weight: 400;
     font-family: "Six Caps", sans-serif;
     font-size: 35px;
-   
-    color:$logo-color;
+
+    color: $logo-color;
     margin-top: -9px;
 }
 

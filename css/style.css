@@ -4,15 +4,14 @@ body {
   background-color: rgba(167, 163, 163, 0.089);
 }
 
-.card {
-  border-radius: 10px;
-  margin: 3px 1px;
-}
-
 .navbar {
   height: 48px;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.top-wrapper {
+  padding-top: 70px;
 }
 
 .login > .container {
@@ -36,10 +35,25 @@ body {
   width: 252px;
 }
 
+.card-body {
+  background-color: rgba(243, 243, 243, 0.994);
+  border-radius: 10px;
+  margin: 3px 1px;
+}
+
 .input-group-text {
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
   padding: 1px 2px;
+}
+
+.backgroundImg {
+  background-image: url("/img/nike.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -350px;
+  background-blend-mode: soft-light;
+  background-size: 100% 100%;
 }
 
 .productImg {
