@@ -8,7 +8,7 @@ body {
 
 // *bootstrap -------------------------------------
 .navbar {
-    height: 41px;
+    height: 55px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -23,7 +23,6 @@ body {
     background-color: $seconday-bg;
     padding: 10px 0;
 }
-
 .form-control {
     font-size: 11px;
     height: 36px;
@@ -35,7 +34,7 @@ body {
 }
 
 .card-body {
-    margin: 2px 0px;
+    margin: 5px 0px;
 }
 .input-group-text {
     background-color: $invisable-color;
@@ -44,10 +43,16 @@ body {
 }
 
 .card{
-    margin-top: 5px;
+    margin:1px 1px;
     background-color: rgb(255, 255, 255);
     border-radius: 0;
+    max-width: 207px;
     border: 1px solid rgba(114, 114, 114, 0.254);
+}
+
+.long-form{
+    min-width:286px;
+    
 }
 
 // *my classes
@@ -64,7 +69,7 @@ body {
 .productImg {
     margin-top: 1px;
     height: 152px;
-    width: 204px;
+    width: 200px;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.152);
 }
