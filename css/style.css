@@ -25,6 +25,16 @@ body {
   padding: 10px 0;
 }
 
+.blilling > .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-radius: 2px;
+  background-color: white;
+  padding: 10px 0;
+}
+
 .form-control {
   font-size: 11px;
   height: 36px;
@@ -55,6 +65,15 @@ body {
 
 .long-form {
   min-width: 286px;
+}
+
+.blilling > .backgroundImg {
+  background-image: url("/img/pexels-sora-shimazaki-5926462.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -350px;
+  background-blend-mode: soft-light;
+  background-size: 100% 100%;
 }
 
 .backgroundImg {
