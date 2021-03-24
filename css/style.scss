@@ -12,7 +12,7 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.top-wrapper{
+.top-wrapper {
     padding-top: 90px;
 }
 .login > .container {
@@ -24,7 +24,7 @@ body {
     padding: 10px 0;
 }
 
-.blilling > .container{
+.blilling > .container {
     align-items: center;
     border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
     border-radius: 2px;
@@ -51,22 +51,44 @@ body {
     padding: 1px 2px;
 }
 
-.card{
-    margin:1px 1px;
+.card {
+    margin: 1px 1px;
     background-color: rgb(255, 255, 255);
     border-radius: 0;
     max-width: 207px;
     border: 1px solid rgba(114, 114, 114, 0.254);
 }
 
-.long-form{
-    min-width:286px;
-    
+.long-form {
+    min-width: 286px;
 }
 
 // *my classes
 
-.blilling > .backgroundImg{
+#miniCart {
+    position: relative;
+    width: 35px;
+}
+
+#miniCart {
+    .counter {
+        color: white;
+        background: #007bff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        border-radius: 50%;
+        font-family: verdana;
+        position: absolute;
+        top: -2px;
+        right: 0px;
+    }
+}
+
+.checkout > .backgroundImg {
     background-image: url("/img/pexels-sora-shimazaki-5926462.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;

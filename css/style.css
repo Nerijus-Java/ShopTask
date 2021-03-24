@@ -67,7 +67,28 @@ body {
   min-width: 286px;
 }
 
-.blilling > .backgroundImg {
+#miniCart {
+  position: relative;
+  width: 35px;
+}
+
+#miniCart .counter {
+  color: white;
+  background: #007bff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  border-radius: 50%;
+  font-family: verdana;
+  position: absolute;
+  top: -2px;
+  right: 0px;
+}
+
+.checkout > .backgroundImg {
   background-image: url("/img/pexels-sora-shimazaki-5926462.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
