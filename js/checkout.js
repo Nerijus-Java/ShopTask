@@ -1,8 +1,8 @@
 let CART;
 
-$(document).ready(function (){
+$(document).ready(function () {
     CART = JSON.parse(localStorage.getItem('CART'));
-    if(!CART){
+    if (!CART) {
         CART = [];
         localStorage.setItem('CART', JSON.stringify(CART));
     }
@@ -10,12 +10,14 @@ $(document).ready(function (){
 });
 
 
-function displayCart(){
+function displayCart() {
     let h = '';
     CART.forEach(x => {
-       h+= `
+    
+        let totalprice = parseInt(x.price) * x.quantity;
+        h += `
         <div>
-            <h5>${x.title} [${x.quantity}]</h5>
+            <h5>Title: ${x.title} | Amount: ${x.quantity} | Price :${totalprice}</h5>
         </div>
         `;
     });

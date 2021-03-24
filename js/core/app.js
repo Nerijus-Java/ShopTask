@@ -18,7 +18,7 @@ let PRODUCTS = [
         id: 3,
         title: "Jordans",
         color: "Black",
-        price: "150.00.00",
+        price: "150.00",
         size: "L"
     },
     {

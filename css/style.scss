@@ -91,19 +91,26 @@ body {
 .checkout > .backgroundImg {
     background-image: url("/img/pexels-sora-shimazaki-5926462.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: -350px;
-    background-blend-mode: soft-light;
-    background-size: 100% 100%;
+    background-attachment: local;
+    background-position-y: -437px;
+    background-size: 100%;
 }
 
 .backgroundImg {
     background-image: url("/img/nike.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: -350px;
-    background-blend-mode: soft-light;
-    background-size: 100% 100%;
+    background-attachment: local;
+    background-size: 100%;
+
+    @media only screen and (min-width: 1245px)  {
+        background-position-y: -437px;
+    }
+    @media only screen and (max-width:1245px) and (min-width: 850px){
+        background-position-y: -305px;
+    }
+    @media only screen and (max-width: 850px) {
+        background-position-y: -170px;
+    }
 }
 
 .productImg {
